@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  height: 80px;
+  height: 70px;
   background-color: #fff;
   position: fixed;
   width: 100%;
@@ -62,7 +62,7 @@ header .header__logo {
   transition: all 0.7s;
 }
 .mobile-menu__item {
-  margin-top: 80px;
+  margin-top: 150px;
   margin-bottom: 30px;
   padding: 10px 0;
 }
@@ -85,7 +85,7 @@ header .header__logo {
 }
 
 .menu-open > .mobile-menu {
-  top: 80px;
+  top: 0;
   height: 100vh;
   opacity: 1 !important;
 }
