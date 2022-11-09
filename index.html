@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Takao Kadooka | 門岡高央</title>
+    <title>Takao Kadooka | 高岡高央</title>
+    <link rel="stylesheet" href="vendors/css-reset.css" />
+    <link rel="stylesheet" href="vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="vendors/swiper.slideshow.scss" />
+    <link rel="stylesheet" href="vendors/swiper.card.css" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/12fe69023d.js"
@@ -14,7 +18,7 @@
   <body>
     <div id="container">
       <header>
-        <div class="header__logo">Takao Kadooka | 門岡高央</div>
+        <div class="header__logo">Takao Kadooka</div>
         <button class="mobile-menu__btn">
           <span></span>
           <span></span>
@@ -38,6 +42,75 @@
         </ul>
       </nav>
     </div>
+    <section class="portrait">
+      <h2>LANDSCAPE</h2>
+      <div class="scroll-bar">
+        <img src="https://unsplash.it/400/600" alt="pplaceholder" />
+        <img src="https://unsplash.it/630/400" alt="pplaceholder" />
+        <img src="https://unsplash.it/900/1600" alt="pplaceholder" />
+        <img src="https://unsplash.it/900/900" alt="pplaceholder" />
+      </div>
+    </section>
+    <section class="portfolio">
+      <h2>PORTRAIT</h2>
+      <div class="portfolio__container">
+        <div class="swiper slide-show">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/630/400" alt="pplaceholder" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/750/700" alt="pplaceholder" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/300/500" alt="pplaceholder" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/3000/2000" alt="pplaceholder" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/1600/400" alt="pplaceholder" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://unsplash.it/100/50" alt="pplaceholder" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- <div class="portfolio_guide">
+        <h2>View More</h2>
+        <a href="###" class="btn"> Portrait</a>
+        <a href="###" class="btn"> Landscape</a>
+      </div> -->
+    </section>
+
+
+
+    <section class="blog">
+      <h1>BLOG</h1>
+      <div class="blog__wrapper">
+        <img src="https://unsplash.it/600/400" alt="" />
+        <h2>ここにタイトル</h2>
+        <p>
+          生地の抜粋。バイデン米政権の任期前半の評価が問われる米中間選挙は８日、全米で投開票が行われた。定数４３５の全議席が改選される下院選は８日夜（日本時間９日午後）現在、野党・共和党が与党・民主党をリードしている。定数１００のう...
+        </p>
+      </div>
+      <a href="###" class="btn">Read More</a>
+    </section>
+
+    <!-- <section class="projects">
+      <h1>Projects</h1>
+      <div class="swiper card">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+      </div>
+    </section> -->
+
+    <script src="vendors/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
